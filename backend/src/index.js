@@ -5,7 +5,7 @@ import { connectDB } from "./lib/db.js";
 import cookieParser from "cookie-parser";
 import messageRoutes from "./routes/message.route.js";
 import cors from "cors";
-import {path} from "path";
+import path from 'path';
 import bodyParser from "body-parser"; 
 import {app,server} from "./lib/socket.js"
 
