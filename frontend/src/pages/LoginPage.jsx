@@ -95,6 +95,22 @@ const LoginPage = () => {
                 "Giriş Yap"
               )}
             </button>
+
+            <button
+    type="button"
+    className="btn btn-primary w-full"
+    onClick={() =>
+      setFormData({
+        email: "demo@gmail.com",
+        password: "123456",
+      })
+    }
+  >
+    Demo Kullanıcı
+  </button>
+
+  
+
           </form>
 
           <div className="text-center">
